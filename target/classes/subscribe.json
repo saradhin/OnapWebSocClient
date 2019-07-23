@@ -1,0 +1,12 @@
+{
+  "v2" : {
+    "ref" : 777,
+    "operation" : "subscribe",
+    "topics" : [
+      {
+        "name" : "bp.aeprocessor.v2_0.alarms",
+        "startAt" : "latest"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: onapwebsocket
+  labels:
+    app: onapwebsocket
+spec:
+  containers:
+  - name: onapwebsocket
+    image: onapwebsocimg
+    imagePullPolicy: Never
+    env:
+      - name: HOST
+        valueFrom:
+          secretKeyRef:
+            name: onapwebsocclisecret
+            key: HOST
+      - name: USER_NAME
+        valueFrom:
+          secretKeyRef:
+            name: onapwebsocclisecret
+            key: USER_NAME
+      - name: PASSWORD
+        valueFrom:
+         secretKeyRef:
+           name: onapwebsocclisecret
+           key: PASSWORD
+      - name: ONAP_HOST
+        valueFrom:
+         secretKeyRef:
+           name: onapwebsocclisecret
+           key: ONAP_HOST
+      - name: PORT
+        valueFrom:
+          secretKeyRef:
+            name: onapwebsocclisecret
+            key: PORT
+      - name: TOPIC
+        valueFrom:
+          secretKeyRef:
+            name: onapwebsocclisecret
+            key: TOPIC

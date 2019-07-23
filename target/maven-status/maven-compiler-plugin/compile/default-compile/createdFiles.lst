@@ -1,0 +1,17 @@
+org/tcl/mvn/onap/model/UserLogin.class
+org/tcl/mvn/onap/McpAuthSecureRestClientBuilder.class
+org/tcl/mvn/onap/WSClient.class
+org/tcl/mvn/onap/McpAuthSecureJerseyClient.class
+org/tcl/mvn/onap/model/V2.class
+org/tcl/mvn/onap/WSMain.class
+org/tcl/mvn/onap/CustomHostnameVerifier.class
+org/tcl/mvn/onap/CustomSSLContext.class
+org/tcl/mvn/onap/model/Token.class
+org/tcl/mvn/onap/model/Topic.class
+org/tcl/mvn/onap/model/LoginDetail.class
+org/tcl/mvn/onap/model/JerseyRestClient.class
+org/tcl/mvn/onap/model/Subscribe.class
+org/tcl/mvn/onap/IMcpAuthSecureRestClient.class
+org/tcl/mvn/onap/CustomTrustManager.class
+org/tcl/mvn/onap/ClossingProcessorHook.class
+org/tcl/mvn/onap/ICustomSSLContext.class

@@ -1,0 +1,17 @@
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/CustomHostnameVerifier.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/model/Topic.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/WSMain.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/model/LoginDetail.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/IMcpAuthSecureRestClient.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/WSClient.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/ClossingProcessorHook.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/model/Token.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/McpAuthSecureJerseyClient.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/model/UserLogin.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/model/Subscribe.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/CustomTrustManager.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/model/V2.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/ICustomSSLContext.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/model/JerseyRestClient.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/CustomSSLContext.java
+/root/OnapWebSocket1/src/main/java/org/tcl/mvn/onap/McpAuthSecureRestClientBuilder.java

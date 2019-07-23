@@ -1,0 +1,52 @@
+tosca_definitions_version: cloudify_dsl_1_3
+
+imports:
+  - http://www.getcloudify.org/spec/cloudify/4.3/types.yaml
+ 
+inputs:
+  host_ip:
+    type: string
+    default: "10.133.98.115"
+  username:
+    type: string
+    default: "admin"
+  password:
+    type: string
+    default: "adminpw"
+  onap_host:
+    type: string
+    default: "10.0.117.22"
+  port:
+    type: integer
+    default: 30227
+  topic:
+	type: string
+	default: "unauthenticated.SEC_FAULT_OUTPUT"
+  image_name:
+	type: string
+	default: ""
+
+  
+node_templates:
+  onapwebsoccli:
+    type: dcae.nodes.ContainerizedPlatformComponent
+    interfaces:
+      cloudify.interfaces.lifecycle:
+        start:
+          inputs:
+           envs:
+            HOST:
+                get_input: host_ip
+            USER_NAME:
+                get_input: username
+            PASSWORD:
+                get_input: password
+            ONAP_HOST:
+                get_input: onap_host
+			PORT:
+			    get_input: topic
+				
+    properties:
+      name: 'onap-web-soc-client'
+	  image: {get_input: image_name}
+      replicas: 1
